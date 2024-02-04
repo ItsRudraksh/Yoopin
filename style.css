@@ -167,6 +167,22 @@ header {
   width: 50px;
   height: 50px;
   border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.arrow i {
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: #df4507;
+  transform: scale(1.2);
+}
+
+.arrow:hover i {
+  color: #ffffff;
 }
 
 #hero {
@@ -856,4 +872,14 @@ footer {
   bottom: 10.75%;
   height: 300px;
   background: #000;
+}
+
+.btn-white,
+.btn-orange {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-white:hover,
+.btn-orange:hover {
+  transform: scale(1.2);
 }
