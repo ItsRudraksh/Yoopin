@@ -31,3 +31,25 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+const imageList = document.getElementById("image-list");
+let currentIndex = 0;
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % imageList.children.length;
+  updateCarousel();
+}
+
+function prevImage() {
+  currentIndex =
+    (currentIndex - 1 + imageList.children.length) % imageList.children.length;
+  updateCarousel();
+}
+
+function updateCarousel() {
+  const translateValue = -currentIndex * 100 + "%";
+  imageList.style.transform = "translateX(" + translateValue + ")";
+}
+
+document.getElementById("left-arrow").addEventListener("click", prevImage);
+document.getElementById("right-arrow").addEventListener("click", nextImage);
