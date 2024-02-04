@@ -1,0 +1,119 @@
+HTML5:
+The <!DOCTYPE html> declaration defines the document to be HTML5.
+The <html> element is the root element of the HTML document.
+The <head> element contains metadata and other information about the document that is not displayed on the webpage itself.
+The <meta charset="UTF-8"> declaration specifies the character encoding for the HTML document.
+The <meta name="viewport" content="width=device-width, initial-scale=1.0"> declaration sets the viewport meta tag, which is used to control the size and scaling of the webpage on different devices.
+The <title> element specifies the title of the webpage, which is displayed on the web browser's title bar or tab.
+The <link> elements are used to link external stylesheets to the HTML document.
+The <body> element contains the content that is displayed on the webpage.
+The <header> element defines a header for the webpage, which typically contains the main navigation and branding elements.
+The <div> elements are used to define sections of the webpage.
+The <nav> element defines a navigation menu.
+The <ul> and <li> elements are used to define an unordered list and list items, respectively.
+The <a> elements are used to define hyperlinks.
+The <img> elements are used to embed images in the webpage.
+The <div> elements with the class "features" define a section of the webpage that contains features of a product or service.
+The <i> elements with the "fa-* fa-2xl" classes are used to display Font Awesome icons.
+The <h1>, <h5>, and <p> elements are used to define headings and paragraphs, respectively.
+The <button> elements are used to define clickable buttons.
+The <video> element is used to embed a video in the webpage.
+The <footer> element defines a footer for the webpage, which typically contains copyright information and other legal details.
+The <script> element is used to include JavaScript code in the HTML document.
+Overall, this code defines a webpage with a header, main content area, and footer. The main content area includes a carousel, a welcome section, a feature section, a news section, a product catalog, and a video. The footer includes links to social media profiles, contact information, and copyright information. The webpage also includes various Font Awesome icons and uses external stylesheets for styling. `
+
+
+
+
+
+CSS:
+The code starts by defining several @font-face rules to import different font styles that are used throughout the webpage.2. The * selector is used to reset the margin and padding properties of all HTML elements to zero.
+The body selector is used to set the width and height of the webpage to 100vw and 100vh, respectively. It also hides the scrollbar and sets the overflow-x property to hidden.
+The header selector is used to style the header section of the webpage. It has a black background color, a fixed position, and a z-index of 999 to ensure that it appears on top of other elements.
+The #logo selector is used to style the logo section of the header. It contains two images - #logo-part-1 and #logo-part-2 - that are positioned relatively to create the desired logo effect.
+The #nav-wrapper selector is used to style the navigation section of the header. It contains a nav element with an unordered list of links.
+The #icon-wrapper selector is used to style the hamburger menu icon that appears on smaller screens.
+The #sec-1 selector is used to style the first section of the webpage, which contains a carousel of images.
+The #image-container selector is used to style the container that holds the carousel images. It has a relative position and an overflow property set to hidden.
+The #image-list selector is used to style the list of carousel images. It has a display property set to flex and a transition property to animate the carousel.
+The .carousel-image selector is used to style each individual carousel image.
+The #wrapper selector is used to style the overlay that appears when the user clicks on the hamburger menu icon. It has a black background color with a transparency of 0.4, a fixed position, and a z-index of 1.
+The .arrow selector is used to style the left and right arrow icons that appear on the carousel.
+The #hero selector is used to style the hero section of the webpage, which contains the main headline and a call-to-action button.
+The #welcome selector is used to style the welcome section that appears when the user clicks on the hamburger menu icon. It has a red background color and contains a heading and a paragraph.
+The #feature-container selector is used to style the container that holds the features section of the webpage.
+The .features selector is used to style each individual feature section. It contains a heading, a paragraph, and an icon.
+The .divide selector is used to style the dividers that appear between each feature section.
+Overall, this CSS code is used to style various sections of a webpage, including the header, carousel, hero, and features sections. It uses a variety of CSS selectors and properties to achieve the desired design effect.
+The #sec-2 selector sets the width of the to 100vw and the height to the difference between 100vh and 100vh, which is 0. It also sets the position to relative.
+The #main-img selector sets the width and height of the main image to 100% and sets the object-fit property to cover.
+The #quote-down, #quote-up, and #message selectors style the quote text, including the font family, size, position, and color.
+The #signature selector styles the signature text, including the font family, size, position, color, and rotation.
+The #news selector sets the position to absolute and the width to auto. It also sets the display to flex and the flex-direction to column.
+The #news-heading selector styles the news heading text, including the font family, size, position, color, and width.
+The #events-line selector sets the position to absolute, the top to 28%, the left to 49%, and the transform to translateX(-50%). It also sets the background-color to #5c5c5c.
+The #img-grp selector sets the width to 100%, the display to flex, the align-items to center, the justify-content to center, the position to absolute, the top to 40%, the left to 48%, and the transform to translateX(-50%).
+The .img-container selector sets the display to flex, the align-items to center, the justify-content to center, and the position to relative.
+The .img-container img selector sets the width and height to 100% and the object-fit property to cover.
+The .overlay selector sets the width to 390px, the height to 0px, the background-color to #00000081, the z-index to 1, the transition to all 0.2s ease-in-out, the display to flex, the align-items to center, the justify-content to center, and the opacity to 0.
+The #overlay-1, #overlay-2, and #overlay-3 selectors set the position to absolute, the top to 50%, and the transform to translateY(-50%).
+The .overlay-content selector sets the display to flex, the align-items to center, the justify-content to center, the flex-direction to column, the gap to 2rem, the opacity to 0, the transition to all 0.2s ease-in-out, and the text-align to center.
+The .overlay-content h5 selector sets the font-size to 18px, the text-transform to uppercase, the font-family to "Open Sans", the color to #ffa784, and the line-height to 35px.
+The .overlay-content p selector sets the font-size to 15px, the font-family to "Open Sans Regular", and the color to #fff.
+The .overlay-content a selector sets the background to none and the text-decoration to none.
+The .overlay-content a button selector sets the font-family to "Open Sans Bold", the background-color to #df4507, the color to #fff, the width to 100px, the height to 30px, the border-radius to 5px, and the border to none.
+The #img-1:hover .overlay, #img-2:hover .overlay, and #img-3:hover .overlay selectors set the height to 262px.
+The #img-1:hover .overlay-content, #img-2:hover .overlay-content, and #img-3:hover .overlay-content selectors set the opacity to 1.
+The #products selector sets the position to absolute, the top to 33.9%, the background-color to #df4507, the width to 100%, the display to flex, the justify-content to center, the align-items to center, the flex-direction to column, and the text-align to center.
+The #top selector sets the margin-top to 3.5em, the width to 100%, the display to flex, the justify-content to center, the align-items to center, the flex-direction to column, and the text-align to center.
+The #top #heading selector sets the font-family to "Helvetica Light", the font-size to 37px, and the color to #fff.
+The #top p selector sets the font-family to "Open Sans Regular", the font-size to 15px, the color to #fff, and the line-height to 28px.
+The #top .line selector sets the width to 8%.
+The #catalogue selector sets the width to 100%, the display to flex, the justify-content to center, the align-items to center, the gap to 7rem, the margin-top to 40px, and the padding-bottom to 50px.
+The .product selector sets the display to flex, the justify-content to center, the align-items to center, and the gap to 1.5rem.
+The .product-desc selector sets the display to flex, the flex-direction to column, the text-align to left, the align-items to start, the justify-content to center, and the gap to 0.8rem.
+The #product-heading selector sets the font-family to "Open Sans Bold", the text-transform to uppercase, the color to #fff, and the font-size to 18px.
+The .product-desc .divide selector sets the width to 100%, the height to 1px, and the background-color to #fff.
+The .product-desc p selector sets the font-family to "Open Sans Regular", the color to #fff, and the font-size to 15px.
+The .product-desc a selector sets the text-decoration to none.
+The .product-desc a button selector sets the margin-top to 10px, the font-family to "Open Sans Bold", the background-color to #fff, the color to #000, the width to 100px, the height to 30px, the border-radius to 5px, and the border to none.
+The .product-image selector sets the transform to scale(1) and the transition to transform 0.2s ease-in-out.
+The .product-image:hover selector sets the transform to scale(1.1).
+#video-area: This section defines the style for a video area that contains an image and a video player. The position is set to absolute, and the width is set to 100vw (viewport width). The top property is set to 48.53% to position the video area halfway down the page. The display property is set to flex, and the flex-direction is set to column to stack the elements vertically. The align-items and justify-content properties are set to center to horizontally and vertically center the elements.
+#video-area img: This section defines the style for the image that is used as a placeholder for the video player. The width and height are set to 100% to cover the entire video container. The object-fit property is set to cover to ensure that the image scales properly.
+#content: This section defines the style for the content area that contains text. The position is set to absolute, and the width is set to 100vw. The display property is set to flex, and the justify-content property is set to center to horizontally center the text.
+#content p: This section defines the style for the paragraph text. The color is set to white, and the font-family is set to Helvetica Light. The font-size is set to 30px.
+#content .line: This section defines the style for a horizontal line that separates the text from the video area. The width is set to 8%, and the background-color is set to #575756.
+#video-container: This section defines the style for the video container that holds the video player. The width and height are set to 550px and 300px, respectively. The display property is set to flex, and the align-items and justify-content properties are set to center to horizontally and vertically center the video player.
+#cycle-video: This section defines the style for the video player. The position property is set to relative, and the width and height are set to 100% to fill the video container. The object-fit property is set to cover to ensure that the video scales properly.
+#video-container #video-overlay: This section defines the style for the overlay that appears when the user hovers over the video container. The opacity is set to 0 by default, and the width and height are set to 550px and 300px, respectively. The border-radius property is set to 10px to match the video container. The background-color is set to a semi-transparent black to darken the video container.
+#play-btn: This section defines the style for the play button that appears when the user hovers over the video container. The opacity is set to 0 by default, and the width and height are set to 50px. The border-radius property is set to 50% to create a circular button. The border property is set to a semi-transparent white to create a border around the button.
+#play-btn i: This section defines the style for the play icon that appears inside the play button. The font-size is set to larger, and the opacity is set to 0 by default.
+footer: This section defines the style for the footer area that appears at the bottom of the page. The position is set to absolute, and the width is set to 100vw. The top property is set to 67% to position the footer at the bottom of the page. The display property is set to flex, and the flex-direction property is set to column to stack the elements vertically. The gap property is set to 5rem to add space between the elements.
+#footer-top: This section defines the style for the top section of the footer that contains the about and socials sections. The width is set to 100%, and the display property is set to flex to align the elements horizontally. The justify-content property is set to space-evenly to distribute the elements evenly.
+#about: This section defines the style for the about section that contains text. The display property is set to flex, and the flex-direction property is set to column to stack the elements vertically. The justify-content property is set to center to horizontally center the text.
+#about h1: This section defines the style for the h1 heading in the about section. The text-transform property is set to uppercase to convert the text to uppercase. The text-align property is set to left to align the text to the left. The color is set to white, and the font-family is set to Open Sans Bold.
+#about p: This section defines the style for the paragraph text in the about section. The text-align property is set to left to align the text to the left. The color is set to white, and the font-family is set to Open Sans Regular.
+#socials: This section defines the style for the socials section that contains social media icons. The display property is set to flex to align the elements horizontally.
+#socials ul: This section defines the style for the unordered list that contains the social media icons. The display property is set to flex to align the elements horizontally. The justify-content property is set to space-between to distribute the elements evenly.
+#socials ul li: This section defines the style for each list item that contains a social media icon. The display property is set to flex to align the elements horizontally. The justify-content property is set to center to horizontally center the icon. The padding property is set to add space around the icon.
+#socials ul li span: This section defines the style for the span element that contains the social media icon. The font-size property is set to 14px, and the font-family is set to Roboto Regular. The color is set to white, and the font-weight property is set to bold.
+#facebook, #twitter, #dribble, #linkedin: These sections define the style for each social media icon. The background-color property is set to the color of the icon.
+#links: This section defines the style for the links section that contains links to other pages. The display property is set to flex to align the elements horizontally.
+#links ul: This section defines the style for the unordered list that contains the links. The list-style property is set to none to remove the bullet points. The display property is set to flex to align the elements vertically. The gap property is set to 0.8rem to add space between the elements.
+#links ul p: This section defines the style for the paragraph text in the links section. The text-align property is set to center to horizontally center the text. The font-family is set to Open Sans Regular, and the font-size is set to 16px. The text-transform property is set to uppercase to convert the text to uppercase.
+#links ul li: This section defines the style for each list item that contains a link. The text-align property is set to center to horizontally center the text. The font-family is set to Open Sans Regular, and the font-size is set to 13px. The text-transform property is set to capitalize to capitalize the first letter of each word.
+#contact-links a: This section defines the style for the links in the links section. The text-decoration property is set to none to remove the underline. The color is set to white.
+#bottom: This section defines the style for the bottom section of the footer that contains text. The width is set to 100%, and the height is set to 50px. The background-color property is set to black. The display property is set to flex to align the elements horizontally. The justify-content property is set to center to horizontally center the text. The gap property is set to 41em to add space between the elements.
+.spacer: This section defines the style for a spacer that is used to create space at the bottom of the page. The position property is set to absolute, and the bottom property is set to 10.75% to position the spacer at the bottom of the page. The height property is set to 300px, and the background-color property is set to black.
+.btn-white, .btn-orange: These sections define the style for the white and orange buttons, respectively. The transition property is set to all 0.2s ease-in-out to animate the hover effect. The hover pseudo-class is used to define the style when the button is hovered over. The transform property is set to scale(1.2) to increase the size of the button.
+
+JavaScript:
+
+The first part of the code selects the "play-btn" button and the "cycle-video" video element and sets the default value of the "playing" variable to false.
+An event listener is added to the "play-btn" button, which checks the current value of the "playing" variable and either pauses or plays the video accordingly. The "playing" variable is then toggled to its opposite value. The button's inner HTML is also updated to display the appropriate play/pause icon.
+Another event listener is added to the window object to control the scrolling behavior of the webpage. When the window is scrolled, the function checks if the scroll position is greater than the offset top of the ".spacer" element. If it is, the window is scrolled back to the top of the ".spacer" element.
+The next part of the code selects the "image-list" element and sets the default value of the "currentIndex" variable to 0.
+Three functions are defined: "nextImage", "prevImage", and "updateCarousel". The "nextImage" function increments the "currentIndex" variable and calls the "updateCarousel" function. The "prevImage" function decrements the "currentIndex" variable and also calls the "updateCarousel" function. The "updateCarousel" function calculates the translate value based on the "currentIndex" variable and applies it to the "image-list" element using the CSS transform property.
+Event listeners are added to the "left-arrow" and "right-arrow" elements, which call the "prevImage" and "nextImage" functions respectively.
+In summary, this code provides functionality for playing and pausing a video, controlling the scroll position of a webpage, and creating a simple image carousel.
