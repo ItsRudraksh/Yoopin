@@ -57,6 +57,7 @@ header {
   height: 70px;
   background-color: #000000;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   position: fixed;
@@ -64,11 +65,17 @@ header {
   z-index: 999;
 }
 
+#menu-icon {
+  display: none;
+}
+
 #logo {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: start;
+  padding-top: 10px;
 }
 
 #logo a {
@@ -77,8 +84,6 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
   top: 5px;
   cursor: pointer;
 }
@@ -89,16 +94,15 @@ header {
 }
 
 #logo-part-2 {
+  margin-left: 25px;
   width: 35%;
   object-fit: cover;
-  position: relative;
-  top: 0px;
-  right: 19px;
 }
 #nav-wrapper {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -131,12 +135,12 @@ header {
 }
 
 main {
-  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 #sec-1 {
@@ -270,9 +274,9 @@ main {
   justify-content: space-around;
   padding: 0 40px;
   position: absolute;
+  top: 21%;
   left: 50%;
   transform: translateX(-50%);
-  top: 21%;
   z-index: 998;
 }
 
@@ -420,6 +424,7 @@ main {
 
 #sec-3 {
   width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -459,8 +464,6 @@ main {
   background-color: rgb(255, 255, 255, 0.329);
 }
 #news-heading {
-  width: 502px;
-  height: 34px;
   font-size: 38px;
   line-height: 45px;
   color: #ffffff;
@@ -718,6 +721,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 #cycle-video {
@@ -731,8 +735,8 @@ main {
 
 #video-container #video-overlay {
   opacity: 0;
-  width: 550px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -891,6 +895,7 @@ footer {
   color: #fff;
   gap: 41em;
   font-family: "Open Sans Regular";
+  margin-top: 3rem;
 }
 
 .btn-white,
@@ -908,5 +913,3 @@ footer {
   transform: scale(1.2);
   cursor: pointer;
 }
-
-/* @media only screen and (min-width: 576px) and (max-width: 768px); */

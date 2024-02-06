@@ -1,0 +1,294 @@
+/* @media only screen and (min-width: 576px) and (max-width: 768px); */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #menu-icon {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+  }
+
+  #logo {
+    padding-top: 17px;
+    transition: all 0.3s ease-in-out;
+  }
+  #logo-part-1 {
+    width: 55%;
+  }
+
+  #logo-part-2 {
+    width: 22%;
+    margin-left: 15px;
+  }
+  #nav-wrapper {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left: 40%;
+    transform: translate(-50%, -200%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #nav-wrapper nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0 0.3rem;
+    font-size: 11px;
+  }
+  #nav-wrapper.show-nav {
+    transform: translate(-50%, 0%);
+  }
+
+  #icon-wrapper {
+    display: none;
+  }
+
+  #wrapper {
+    padding: 0 1rem;
+  }
+
+  #wrapper h1 {
+    font-size: 30px;
+  }
+
+  #wrapper #hero-p1 {
+    font-size: 12px;
+  }
+
+  #wrapper #hero-p2 {
+    width: 85%;
+    font-size: 16px;
+  }
+
+  #welcome {
+    width: 90%;
+    height: 450px;
+    padding: 0 15px;
+    justify-content: space-evenly;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  #welcome-content {
+    gap: 1rem;
+  }
+  #welcome-heading {
+    font-size: 18px;
+  }
+
+  #welcome-p1 {
+    font-size: 10px;
+  }
+
+  #feature-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .features {
+    gap: 2rem;
+  }
+
+  .features h1 {
+    font-size: 12px;
+  }
+  .features p {
+    font-size: 11px;
+  }
+
+  .icon i {
+    font-size: 25px;
+  }
+
+  #sec-2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 20em;
+    margin-bottom: 3rem;
+  }
+
+  #message-container {
+    height: auto;
+  }
+
+  #message {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .quote {
+    font-size: 100px;
+  }
+
+  #quote-down {
+    top: 48%;
+    right: 100%;
+    transform: translate(0, -50%);
+  }
+
+  #quote-up {
+    transform: translateY(58%);
+  }
+
+  #signature {
+    font-size: 36px;
+  }
+
+  #news {
+    gap: 2rem;
+  }
+
+  #heading-container {
+    gap: 1rem;
+  }
+
+  #news-heading {
+    font-size: 18px;
+    line-height: 0;
+  }
+
+  #img-grp {
+    width: 90%;
+    height: 20%;
+  }
+
+  .overlay-content h5 {
+    font-size: 8px;
+  }
+
+  .overlay-content p {
+    overflow: auto;
+    font-size: 7px;
+    line-height: 10px;
+  }
+
+  .overlay-content button {
+    width: 60px;
+    height: 15px;
+    font-size: 8px;
+  }
+
+  #catalogue {
+    gap: 1rem;
+  }
+
+  .product {
+    gap: 0rem;
+  }
+
+  #products {
+    gap: 2rem;
+    justify-content: center;
+    height: 500px;
+    padding: 0 20px;
+  }
+
+  #top {
+    gap: 1rem;
+  }
+
+  #top p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  #heading {
+    font-size: 20px;
+  }
+
+  #product-heading {
+    font-size: 12px;
+  }
+
+  .product-desc p {
+    font-size: 10px;
+  }
+
+  .product-desc a button {
+    font-size: 10px;
+    width: 80px;
+    height: 15px;
+  }
+
+  .product-image img {
+    width: 70%;
+    object-fit: cover;
+  }
+
+  #content {
+    gap: 0.8rem;
+  }
+
+  #content p {
+    font-size: 20px;
+  }
+
+  #video-container {
+    width: 200px;
+    height: 100px;
+  }
+
+  footer{
+    gap: 3rem;
+    padding: 3rem 1rem 0 1rem;
+  }
+
+  #about h1 {
+    font-size: 20px;
+  }
+
+  #about p {
+    font-size: 10px;
+  }
+
+  #links {
+    gap: 1rem;
+  }
+
+  #links ul p {
+    font-size: 12px;
+  }
+
+  #links ul li {
+    font-size: 10px;
+  }
+
+  #socials ul li span {
+    font-size: 10px;
+  }
+
+  #socials,
+  #socials ul {
+    gap: 0.8rem;
+  }
+
+  #socials ul li {
+    gap: 0.5rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  #bottom p{
+    font-size: 10px;
+  }
+
+  #bottom{
+    gap: 0;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+}

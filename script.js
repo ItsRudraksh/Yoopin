@@ -42,3 +42,25 @@ playBtn.addEventListener("click", () => {
     `;
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuIcon = document.getElementById("menu-icon");
+  const navWrapper = document.getElementById("nav-wrapper");
+  const logo = document.getElementById("logo");
+
+  menuIcon.addEventListener("click", function () {
+    navWrapper.classList.toggle("show-nav");
+    // Toggle menu icon between bars and x
+    if (navWrapper.classList.contains("show-nav")) {
+      menuIcon.innerHTML =
+        '<i class="fa-solid fa-x" style="color: #ffffff;"></i>';
+      // Move logo and nav-wrapper up
+      logo.style.transform = "translateY(-200%)";
+    } else {
+      menuIcon.innerHTML =
+        '<i class="fa-solid fa-bars" style="color: #ffffff;"></i>';
+      // Move logo and nav-wrapper back to initial position
+      logo.style.transform = "initial";
+    }
+  });
+});
