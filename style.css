@@ -113,6 +113,12 @@ header {
 #nav-wrapper a {
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+#nav-wrapper a:hover {
+  text-decoration: underline;
+  color: #df4507;
 }
 
 #icon-wrapper ul {
