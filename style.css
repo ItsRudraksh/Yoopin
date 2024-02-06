@@ -362,7 +362,7 @@ main {
 }
 
 #sec-2 {
-  margin-top: 15em;
+  margin-top: 17em;
   width: 100%;
   display: flex;
   align-items: center;
@@ -376,7 +376,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  height: 700px;
+  height: 500px;
 }
 
 .quote {
@@ -385,6 +385,8 @@ main {
   font-weight: 400;
   font-family: "Gentium Basic";
   text-align: center;
+  position: absolute;
+  z-index: -1;
 }
 
 #message {
@@ -398,14 +400,12 @@ main {
 }
 
 #quote-down {
-  position: absolute;
-  top: 28%;
+  top: 20%;
   right: 100%;
 }
 #quote-up {
-  position: absolute;
-  bottom: 5%;
-  left: 92%;
+  left: 93%;
+  transform: translateY(48%);
 }
 
 #signature {
@@ -908,3 +908,5 @@ footer {
   transform: scale(1.2);
   cursor: pointer;
 }
+
+/* @media only screen and (min-width: 576px) and (max-width: 768px); */
