@@ -621,7 +621,7 @@
     padding: 0 1rem;
   }
 }
-@media only screen and (min-width: 377px) and (max-width: 426px) {
+@media only screen and (min-width: 377px) and (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
@@ -695,7 +695,7 @@
     font-size: 16px;
   }
 
-  #welcome {
+  body #welcome {
     width: 90%;
     height: 450px;
     padding: 0 15px;
@@ -709,11 +709,11 @@
     gap: 1rem;
   }
   #welcome-heading {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   #welcome-p1 {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   #feature-container {
@@ -729,67 +729,67 @@
   }
 
   .features h1 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .features p {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .icon i {
-    font-size: 25px;
+    font-size: 20px;
   }
 
-  #sec-2 {
+  main #sec-2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5rem;
     margin-top: 20em;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   #message-container {
     height: auto;
   }
 
-  #message {
+  #message-container #message {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 18px;
   }
 
-  .quote {
+  #message-container .quote {
     font-size: 100px;
   }
 
-  #quote-down {
+  #message-container #quote-down {
     top: 48%;
     right: 100%;
-    transform: translate(0, -50%);
+    transform: translate(-5%, -55%);
   }
 
-  #quote-up {
+  #message-container #quote-up {
     transform: translateY(58%);
   }
 
-  #signature {
-    font-size: 36px;
+  #message-container #signature {
+    font-size: 30px;
   }
 
-  #news {
+  main #news {
     gap: 2rem;
   }
 
-  #heading-container {
+  #news #heading-container {
     gap: 1rem;
   }
 
-  #news-heading {
-    font-size: 18px;
+  #news #news-heading {
+    font-size: 15px;
     line-height: 0;
   }
 
-  #img-grp {
-    width: 90%;
+  #news #img-grp {
+    width: 80%;
     height: 20%;
   }
 
@@ -809,7 +809,7 @@
     font-size: 8px;
   }
 
-  #catalogue {
+  #products #catalogue {
     gap: 1rem;
     flex-direction: column;
   }
@@ -825,96 +825,96 @@
     padding: 0 20px;
   }
 
-  #top {
-    gap: 0.5rem;
+  #products #top {
+    gap: 1rem;
   }
 
-  #top p {
-    font-size: 12px;
+  #products #top p {
+    font-size: 10px;
     line-height: 12px;
   }
 
-  #top #heading {
+  #products #top #heading {
     font-size: 18px;
   }
 
-  #product-heading {
+  #products #product-heading {
     font-size: 10px;
   }
 
-  .product-desc p {
+  #products .product-desc p {
     font-size: 10px;
   }
 
-  .product-desc a button {
+  #products .product-desc a button {
     font-size: 10px;
     width: 80px;
     height: 15px;
   }
 
-  .product-image img {
+  #products .product-image img {
     width: 60%;
     object-fit: cover;
   }
 
-  #content {
-    gap: 0.8rem;
+  #video-area #content {
+    gap: 0.5rem;
   }
 
-  #content p {
-    font-size: 20px;
+  #video-area #content p {
+    font-size: 15px;
   }
 
-  #video-container {
+  #video-area #video-container {
     width: 200px;
     height: 100px;
   }
 
   footer {
-    gap: 3rem;
+    gap: 1rem;
     padding: 3rem 1rem 0 1rem;
     flex-wrap: wrap;
   }
 
   #footer-top {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     align-items: start;
     padding-left: 2rem;
   }
 
-  #about h1 {
+  #footer-top #about h1 {
     font-size: 20px;
   }
 
-  #about p {
+  #footer-top #about p {
     font-size: 10px;
   }
 
-  #links {
+  #footer-top #links {
     gap: 1rem;
     flex-wrap: wrap;
   }
 
-  #links ul p {
+  #footer-top #links ul p {
     font-size: 12px;
   }
 
-  #links ul li {
+  #footer-top #links ul li {
     font-size: 10px;
   }
 
-  #socials ul li span {
+  #footer-top #socials ul li span {
     font-size: 10px;
   }
 
-  #socials,
-  #socials ul {
+  #footer-top #socials,
+  #footer-top #socials ul {
     gap: 0.8rem;
   }
 
-  #socials ul li {
+  #footer-top #socials ul li {
     gap: 0.5rem;
     padding: 0.3rem 0.5rem;
   }
@@ -1355,7 +1355,7 @@
   }
 
   #catalogue {
-    gap: 1rem;
+    gap: 0rem;
   }
 
   .product {
@@ -1368,28 +1368,28 @@
     padding: 0 20px;
   }
 
-  #top {
+  #products #top {
     gap: 1rem;
   }
 
-  #top p {
+  #products #top p {
     font-size: 20px;
     line-height: 22px;
   }
 
-  #top #heading {
+  #products #top #heading {
     font-size: 36px;
   }
 
-  #product-heading {
+  #products #product-heading {
     font-size: 18px;
   }
 
-  .product-desc p {
+  #catalogue .product-desc p {
     font-size: 15px;
   }
 
-  .product-desc a button {
+  #catalogue .product-desc a button {
     font-size: 14px;
     width: 100px;
     height: 25px;
