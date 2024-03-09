@@ -1,34 +1,34 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("./Fonts/open-sans/OpenSans-ExtraBold.ttf");
+  src: url("/public/assets/Fonts/open-sans/OpenSans-ExtraBold.ttf");
 }
 @font-face {
   font-family: "Open Sans Regular";
-  src: url("./Fonts/open-sans/OpenSans-Regular.ttf");
+  src: url("/public/assets/Fonts/open-sans/OpenSans-Regular.ttf");
 }
 @font-face {
   font-family: "Open Sans Bold";
-  src: url("./Fonts/open-sans/OpenSans-Bold.ttf");
+  src: url("/public/assets/Fonts/open-sans/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: "Gentium Basic";
-  src: url("./Fonts/gentium-basic/GenBasR.ttf");
+  src: url("/public/assets/Fonts/gentium-basic/GenBasR.ttf");
 }
 
 @font-face {
   font-family: "RageItalic";
-  src: url("./Fonts/rage-italic-cufonfonts-webfont/RAGE_1.woff");
+  src: url("/public/assets/Fonts/rage-italic-cufonfonts-webfont/RAGE_1.woff");
 }
 
 @font-face {
   font-family: "Helvetica Light";
-  src: url("./Fonts/Helvetica-Light-Regular/Helvetica\ Light\ Regular.otf");
+  src: url("/public/assets/Fonts/Helvetica-Light-Regular/Helvetica\ Light\ Regular.otf");
 }
 
 @font-face {
   font-family: "Roboto Regular";
-  src: url("./Fonts/roboto/Roboto-Regular.ttf");
+  src: url("/public/assets/Fonts/roboto/Roboto-Regular.ttf");
 }
 
 * {
@@ -42,7 +42,7 @@
 body {
   width: 100vw;
   height: auto;
-  background-image: url("./Images/Layer\ 68.png");
+  background-image: url("/public/assets/Images/Layer\ 68.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
