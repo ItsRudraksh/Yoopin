@@ -42,7 +42,7 @@
 body {
   width: 100vw;
   height: auto;
-  background-image: url("/public/assets/Images/Layer\ 68.png");
+  background-image: url("../assets/Images/Layer\ 68.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
