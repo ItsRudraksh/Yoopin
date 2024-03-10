@@ -43,6 +43,7 @@
     padding: 1.5rem 2.5rem;
     transform: translateX(-100%);
     border-radius: 20px;
+    z-index: 999;
   }
   nav ul {
     flex-direction: column;
